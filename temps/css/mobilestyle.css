@@ -224,7 +224,7 @@
     background-image: linear-gradient(to bottom, rgb(9, 38, 54), rgb(24, 68, 94));    
     color: white;
     outline: 1px solid rgb(24, 68, 94);
-    height: 1700px;
+    height: 1600px;
 }
 
 .main_habilities_container {
@@ -235,14 +235,8 @@
     padding: 30px;
 }
 
-.habilities_content {
-    height: 400px;
-}
-
 .habilities__paragraph {
     display: grid;
-    grid-template-rows: 33% 34% 33%;
-    grid-template-columns: 100%;
     align-items: center;
 }
 

@@ -136,7 +136,6 @@
     gap: 20px;
     grid-column: 2;
     grid-row: 1;
-
 }
 
 #photo {
@@ -227,9 +226,10 @@
     margin-right: 30px;
     color: white;
     transition: .5s;
-    padding: 18px;
+    padding: 14px;
     background-image: radial-gradient(rgb(10, 86, 129), rgb(6, 54, 82));
     border-radius: 50%;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 50%);
 }
 .fa-arrow-right{
     grid-column: 3;
@@ -239,9 +239,9 @@
     margin-left: 30px;
     color: white;
     transition: .5s;
-    padding: 18px;
+    padding: 14px;
     background-image: radial-gradient(rgb(10, 86, 129), rgb(6, 54, 82));
-
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 50%);
     border-radius: 50%;
 }
 .fa-arrow-left:hover{
@@ -249,12 +249,14 @@
     cursor: pointer;
     outline: none;
     transform: scale(1.2,1.2);
+    box-shadow: 4px 4px 6px rgb(0 0 0 / 50%);
 }
 .fa-arrow-right:hover{
     color: white;
     cursor: pointer;
     outline: none;
     transform: scale(1.2,1.2);
+    box-shadow: 4px 4px 6px rgb(0 0 0 / 50%);
 }
 .fa-arrow-right:active{
     background-image: radial-gradient(rgb(15, 136, 206),rgb(4, 139, 218));
